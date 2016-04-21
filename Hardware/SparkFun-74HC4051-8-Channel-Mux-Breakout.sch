@@ -13272,6 +13272,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="95.37" y="20.75"/>
 </polygon>
 </package>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -17948,6 +17954,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="49.69" y="10.37"/>
 </polygon>
 </symbol>
+<symbol name="FIDUCIAL">
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -18200,6 +18211,25 @@ layer for the logo on the board is tSilk.</description>
 </technologies>
 </device>
 <device name="1_INCH" package="SFE_LOGO_NAME_1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+Various fiducial points for machine vision alignment.</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20461,12 +20491,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M11" device="1X11_NO_SILK"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M11" device="PTH"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="J2" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
@@ -20477,6 +20507,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_PASTE" device="NO-SILK" value="VEE-GND"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -20513,6 +20545,33 @@ a bi-polar supply is not used.
 <text x="78.74" y="81.28" size="1.27" layer="97" font="vector" align="center-left">R1 keeps enable active 
 (low). Pull !E! directly to 
 VCC to disable the mux.</text>
+<text x="167.64" y="53.34" size="1.27" layer="97" font="vector" align="center-left">Example Supplies: VCC VEE GND</text>
+<text x="186.944" y="48.26" size="1.27" layer="97" font="vector" align="center-left">10V  0V  0V</text>
+<text x="186.944" y="45.72" size="1.27" layer="97" font="vector" align="center-left">+5V -5V  0V</text>
+<text x="186.944" y="43.18" size="1.27" layer="97" font="vector" align="center-left">+2V -8V  0V</text>
+<text x="186.944" y="50.8" size="1.27" layer="97" font="vector" align="center-left">5V   0V  0V</text>
+<wire x1="186.436" y1="42.164" x2="186.436" y2="44.45" width="0.2032" layer="97"/>
+<wire x1="186.436" y1="44.45" x2="186.436" y2="46.99" width="0.2032" layer="97"/>
+<wire x1="186.436" y1="46.99" x2="186.436" y2="49.53" width="0.2032" layer="97"/>
+<wire x1="186.436" y1="49.53" x2="186.436" y2="52.07" width="0.2032" layer="97"/>
+<wire x1="186.436" y1="52.07" x2="186.436" y2="54.356" width="0.2032" layer="97"/>
+<wire x1="200.406" y1="42.164" x2="195.834" y2="42.164" width="0.2032" layer="97"/>
+<wire x1="195.834" y1="42.164" x2="190.754" y2="42.164" width="0.2032" layer="97"/>
+<wire x1="190.754" y1="42.164" x2="186.436" y2="42.164" width="0.2032" layer="97"/>
+<wire x1="200.406" y1="42.164" x2="200.406" y2="44.45" width="0.2032" layer="97"/>
+<wire x1="200.406" y1="44.45" x2="200.406" y2="46.99" width="0.2032" layer="97"/>
+<wire x1="200.406" y1="46.99" x2="200.406" y2="49.53" width="0.2032" layer="97"/>
+<wire x1="200.406" y1="49.53" x2="200.406" y2="52.07" width="0.2032" layer="97"/>
+<wire x1="200.406" y1="52.07" x2="200.406" y2="54.356" width="0.2032" layer="97"/>
+<wire x1="200.406" y1="54.356" x2="195.834" y2="54.356" width="0.2032" layer="97"/>
+<wire x1="195.834" y1="54.356" x2="190.754" y2="54.356" width="0.2032" layer="97"/>
+<wire x1="190.754" y1="54.356" x2="186.436" y2="54.356" width="0.2032" layer="97"/>
+<wire x1="190.754" y1="54.356" x2="190.754" y2="42.164" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="195.834" y1="54.356" x2="195.834" y2="42.164" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="186.436" y1="52.07" x2="200.406" y2="52.07" width="0.2032" layer="97"/>
+<wire x1="186.436" y1="49.53" x2="200.406" y2="49.53" width="0.2032" layer="97"/>
+<wire x1="186.436" y1="46.99" x2="200.406" y2="46.99" width="0.2032" layer="97"/>
+<wire x1="186.436" y1="44.45" x2="200.406" y2="44.45" width="0.2032" layer="97"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="124.46" y="96.52"/>
@@ -20540,6 +20599,8 @@ VCC to disable the mux.</text>
 <instance part="LOGO3" gate="G$1" x="30.48" y="2.54"/>
 <instance part="JP1" gate="G$1" x="129.54" y="58.42" rot="R90"/>
 <instance part="GND6" gate="1" x="129.54" y="48.26"/>
+<instance part="FD1" gate="G$1" x="243.84" y="33.02"/>
+<instance part="FD2" gate="G$1" x="241.3" y="30.48"/>
 </instances>
 <busses>
 </busses>
