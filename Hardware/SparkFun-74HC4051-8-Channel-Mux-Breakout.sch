@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -20515,65 +20515,67 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="182.88" y="60.96" size="1.27" layer="97" font="vector" align="center-right">VCC-GND</text>
-<text x="182.88" y="58.42" size="1.27" layer="97" font="vector" align="center-right">VCC-VEE</text>
-<text x="192.532" y="63.5" size="1.27" layer="97" font="vector" align="center">Min  Typ  Max</text>
-<text x="193.04" y="60.96" size="1.27" layer="97" font="vector" align="center">2.0  5.0  10.0</text>
-<text x="193.04" y="58.42" size="1.27" layer="97" font="vector" align="center">2.0  5.0  10.0</text>
-<wire x1="183.896" y1="61.976" x2="183.896" y2="57.404" width="0.2032" layer="97"/>
-<wire x1="183.896" y1="57.404" x2="174.244" y2="57.404" width="0.2032" layer="97"/>
-<wire x1="174.244" y1="57.404" x2="174.244" y2="59.69" width="0.2032" layer="97"/>
-<wire x1="174.244" y1="59.69" x2="174.244" y2="61.976" width="0.2032" layer="97"/>
-<wire x1="174.244" y1="61.976" x2="183.896" y2="61.976" width="0.2032" layer="97"/>
-<wire x1="183.896" y1="61.976" x2="200.914" y2="61.976" width="0.2032" layer="97"/>
-<wire x1="200.914" y1="61.976" x2="200.914" y2="59.69" width="0.2032" layer="97"/>
-<wire x1="200.914" y1="59.69" x2="200.914" y2="57.404" width="0.2032" layer="97"/>
-<wire x1="200.914" y1="57.404" x2="195.072" y2="57.404" width="0.2032" layer="97"/>
-<wire x1="195.072" y1="57.404" x2="189.738" y2="57.404" width="0.2032" layer="97"/>
-<wire x1="189.738" y1="57.404" x2="183.896" y2="57.404" width="0.2032" layer="97"/>
-<wire x1="174.244" y1="59.69" x2="200.914" y2="59.69" width="0.2032" layer="97"/>
-<wire x1="183.896" y1="61.976" x2="183.896" y2="64.516" width="0.2032" layer="97"/>
-<wire x1="183.896" y1="64.516" x2="189.738" y2="64.516" width="0.2032" layer="97"/>
-<wire x1="189.738" y1="64.516" x2="195.072" y2="64.516" width="0.2032" layer="97"/>
-<wire x1="195.072" y1="64.516" x2="200.914" y2="64.516" width="0.2032" layer="97"/>
-<wire x1="200.914" y1="64.516" x2="200.914" y2="61.976" width="0.2032" layer="97"/>
-<text x="242.316" y="8.636" size="2.54" layer="94" font="vector" align="center">v01</text>
+<text x="212.09" y="45.72" size="2.54" layer="97" font="vector" align="center-right">VCC-GND</text>
+<text x="212.09" y="40.64" size="2.54" layer="97" font="vector" align="center-right">VCC-VEE</text>
+<text x="229.362" y="50.8" size="2.54" layer="97" font="vector" align="center">Min  Typ  Max</text>
+<text x="229.87" y="45.72" size="2.54" layer="97" font="vector" align="center">2.0  5.0  10.0</text>
+<text x="229.87" y="40.64" size="2.54" layer="97" font="vector" align="center">2.0  5.0  10.0</text>
+<wire x1="213.106" y1="48.006" x2="213.106" y2="38.354" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="38.354" x2="194.564" y2="38.354" width="0.2032" layer="97"/>
+<wire x1="194.564" y1="38.354" x2="194.564" y2="43.18" width="0.2032" layer="97"/>
+<wire x1="194.564" y1="43.18" x2="194.564" y2="48.006" width="0.2032" layer="97"/>
+<wire x1="194.564" y1="48.006" x2="213.106" y2="48.006" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="48.006" x2="245.364" y2="48.006" width="0.2032" layer="97"/>
+<wire x1="245.364" y1="48.006" x2="245.364" y2="43.18" width="0.2032" layer="97"/>
+<wire x1="245.364" y1="43.18" x2="245.364" y2="38.354" width="0.2032" layer="97"/>
+<wire x1="245.364" y1="38.354" x2="233.172" y2="38.354" width="0.2032" layer="97"/>
+<wire x1="233.172" y1="38.354" x2="222.758" y2="38.354" width="0.2032" layer="97"/>
+<wire x1="222.758" y1="38.354" x2="213.106" y2="38.354" width="0.2032" layer="97"/>
+<wire x1="194.564" y1="43.18" x2="245.364" y2="43.18" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="48.006" x2="213.106" y2="53.086" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="53.086" x2="222.758" y2="53.086" width="0.2032" layer="97"/>
+<wire x1="222.758" y1="53.086" x2="233.172" y2="53.086" width="0.2032" layer="97"/>
+<wire x1="233.172" y1="53.086" x2="245.364" y2="53.086" width="0.2032" layer="97"/>
+<wire x1="245.364" y1="53.086" x2="245.364" y2="48.006" width="0.2032" layer="97"/>
+<text x="242.316" y="8.636" size="2.54" layer="94" font="vector" align="center">v10</text>
 <text x="184.404" y="12.7" size="2.54" layer="94" font="vector" align="center">Jim Lindblom</text>
-<wire x1="189.738" y1="64.516" x2="189.738" y2="57.404" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="195.072" y1="64.516" x2="195.072" y2="57.404" width="0.2032" layer="97" style="shortdash"/>
-<text x="137.16" y="58.42" size="1.27" layer="97" font="vector" align="center-left">JP1 shorts VEE to GND, if 
+<wire x1="222.758" y1="53.086" x2="222.758" y2="38.354" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="233.172" y1="53.086" x2="233.172" y2="38.354" width="0.2032" layer="97" style="shortdash"/>
+<text x="137.16" y="58.42" size="1.778" layer="97" font="vector" align="center-left">JP1 shorts VEE to GND, if 
 a bi-polar supply is not used.
 (Defaults closed.)</text>
-<text x="78.74" y="81.28" size="1.27" layer="97" font="vector" align="center-left">R1 keeps enable active 
-(low). Pull !E! directly to 
-VCC to disable the mux.</text>
-<text x="167.64" y="53.34" size="1.27" layer="97" font="vector" align="center-left">Example Supplies: VCC VEE GND</text>
-<text x="186.944" y="48.26" size="1.27" layer="97" font="vector" align="center-left">10V  0V  0V</text>
-<text x="186.944" y="45.72" size="1.27" layer="97" font="vector" align="center-left">+5V -5V  0V</text>
-<text x="186.944" y="43.18" size="1.27" layer="97" font="vector" align="center-left">+2V -8V  0V</text>
-<text x="186.944" y="50.8" size="1.27" layer="97" font="vector" align="center-left">5V   0V  0V</text>
-<wire x1="186.436" y1="42.164" x2="186.436" y2="44.45" width="0.2032" layer="97"/>
-<wire x1="186.436" y1="44.45" x2="186.436" y2="46.99" width="0.2032" layer="97"/>
-<wire x1="186.436" y1="46.99" x2="186.436" y2="49.53" width="0.2032" layer="97"/>
-<wire x1="186.436" y1="49.53" x2="186.436" y2="52.07" width="0.2032" layer="97"/>
-<wire x1="186.436" y1="52.07" x2="186.436" y2="54.356" width="0.2032" layer="97"/>
-<wire x1="200.406" y1="42.164" x2="195.834" y2="42.164" width="0.2032" layer="97"/>
-<wire x1="195.834" y1="42.164" x2="190.754" y2="42.164" width="0.2032" layer="97"/>
-<wire x1="190.754" y1="42.164" x2="186.436" y2="42.164" width="0.2032" layer="97"/>
-<wire x1="200.406" y1="42.164" x2="200.406" y2="44.45" width="0.2032" layer="97"/>
-<wire x1="200.406" y1="44.45" x2="200.406" y2="46.99" width="0.2032" layer="97"/>
-<wire x1="200.406" y1="46.99" x2="200.406" y2="49.53" width="0.2032" layer="97"/>
-<wire x1="200.406" y1="49.53" x2="200.406" y2="52.07" width="0.2032" layer="97"/>
-<wire x1="200.406" y1="52.07" x2="200.406" y2="54.356" width="0.2032" layer="97"/>
-<wire x1="200.406" y1="54.356" x2="195.834" y2="54.356" width="0.2032" layer="97"/>
-<wire x1="195.834" y1="54.356" x2="190.754" y2="54.356" width="0.2032" layer="97"/>
-<wire x1="190.754" y1="54.356" x2="186.436" y2="54.356" width="0.2032" layer="97"/>
-<wire x1="190.754" y1="54.356" x2="190.754" y2="42.164" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="195.834" y1="54.356" x2="195.834" y2="42.164" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="186.436" y1="52.07" x2="200.406" y2="52.07" width="0.2032" layer="97"/>
-<wire x1="186.436" y1="49.53" x2="200.406" y2="49.53" width="0.2032" layer="97"/>
-<wire x1="186.436" y1="46.99" x2="200.406" y2="46.99" width="0.2032" layer="97"/>
-<wire x1="186.436" y1="44.45" x2="200.406" y2="44.45" width="0.2032" layer="97"/>
+<text x="78.74" y="81.28" size="1.778" layer="97" font="vector" align="center-left">R1 keeps enable 
+active (low). Pull 
+!E! directly to VCC 
+to disable the mux.</text>
+<text x="227.33" y="80.01" size="2.54" layer="97" font="vector" align="center">VCC VEE GND</text>
+<text x="227.33" y="69.85" size="2.54" layer="97" font="vector" align="center">10V  0V  0V</text>
+<text x="227.584" y="64.77" size="2.54" layer="97" font="vector" align="center">+5V -5V  0V</text>
+<text x="227.33" y="59.69" size="2.54" layer="97" font="vector" align="center">+2V -8V  0V</text>
+<text x="227.33" y="74.93" size="2.54" layer="97" font="vector" align="center">5V   0V  0V</text>
+<wire x1="213.106" y1="57.404" x2="213.106" y2="62.23" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="62.23" x2="213.106" y2="67.31" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="67.31" x2="213.106" y2="72.39" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="72.39" x2="213.106" y2="77.47" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="77.47" x2="213.106" y2="82.296" width="0.2032" layer="97"/>
+<wire x1="241.046" y1="57.404" x2="231.394" y2="57.404" width="0.2032" layer="97"/>
+<wire x1="231.394" y1="57.404" x2="222.504" y2="57.404" width="0.2032" layer="97"/>
+<wire x1="222.504" y1="57.404" x2="213.106" y2="57.404" width="0.2032" layer="97"/>
+<wire x1="241.046" y1="57.404" x2="241.046" y2="62.23" width="0.2032" layer="97"/>
+<wire x1="241.046" y1="62.23" x2="241.046" y2="67.31" width="0.2032" layer="97"/>
+<wire x1="241.046" y1="67.31" x2="241.046" y2="72.39" width="0.2032" layer="97"/>
+<wire x1="241.046" y1="72.39" x2="241.046" y2="77.47" width="0.2032" layer="97"/>
+<wire x1="241.046" y1="77.47" x2="241.046" y2="82.296" width="0.2032" layer="97"/>
+<wire x1="241.046" y1="82.296" x2="231.394" y2="82.296" width="0.2032" layer="97"/>
+<wire x1="231.394" y1="82.296" x2="222.504" y2="82.296" width="0.2032" layer="97"/>
+<wire x1="222.504" y1="82.296" x2="213.106" y2="82.296" width="0.2032" layer="97"/>
+<wire x1="222.504" y1="82.296" x2="222.504" y2="57.404" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="231.394" y1="82.296" x2="231.394" y2="57.404" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="213.106" y1="77.47" x2="241.046" y2="77.47" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="72.39" x2="241.046" y2="72.39" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="67.31" x2="241.046" y2="67.31" width="0.2032" layer="97"/>
+<wire x1="213.106" y1="62.23" x2="241.046" y2="62.23" width="0.2032" layer="97"/>
+<text x="227.33" y="85.09" size="2.54" layer="97" font="vector" align="center">Example Supplies</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="124.46" y="96.52"/>
