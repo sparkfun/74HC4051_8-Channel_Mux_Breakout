@@ -165,112 +165,112 @@
 <wire x1="-1.75" y1="1.25" x2="-1.75" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="-1.75" y1="-1.25" x2="1.75" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="1.75" y1="-1.25" x2="1.75" y2="1.25" width="0.127" layer="51"/>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="0.13" y="1.25"/>
 <vertex x="0.37" y="1.25"/>
 <vertex x="0.37" y="0.97" curve="-90"/>
 <vertex x="0.25" y="0.85" curve="-90"/>
 <vertex x="0.13" y="0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="-0.37" y="1.25"/>
 <vertex x="-0.13" y="1.25"/>
 <vertex x="-0.13" y="0.97" curve="-90"/>
 <vertex x="-0.25" y="0.85" curve="-90"/>
 <vertex x="-0.37" y="0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="-0.87" y="1.25"/>
 <vertex x="-0.63" y="1.25"/>
 <vertex x="-0.63" y="0.97" curve="-90"/>
 <vertex x="-0.75" y="0.85" curve="-90"/>
 <vertex x="-0.87" y="0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="-1.37" y="1.25"/>
 <vertex x="-1.13" y="1.25"/>
 <vertex x="-1.13" y="0.97" curve="-90"/>
 <vertex x="-1.25" y="0.85" curve="-90"/>
 <vertex x="-1.37" y="0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="0.63" y="1.25"/>
 <vertex x="0.87" y="1.25"/>
 <vertex x="0.87" y="0.97" curve="-90"/>
 <vertex x="0.75" y="0.85" curve="-90"/>
 <vertex x="0.63" y="0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="1.13" y="1.25"/>
 <vertex x="1.37" y="1.25"/>
 <vertex x="1.37" y="0.97" curve="-90"/>
 <vertex x="1.25" y="0.85" curve="-90"/>
 <vertex x="1.13" y="0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="-0.13" y="-1.25"/>
 <vertex x="-0.37" y="-1.25"/>
 <vertex x="-0.37" y="-0.97" curve="-90"/>
 <vertex x="-0.25" y="-0.85" curve="-90"/>
 <vertex x="-0.13" y="-0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="0.37" y="-1.25"/>
 <vertex x="0.13" y="-1.25"/>
 <vertex x="0.13" y="-0.97" curve="-90"/>
 <vertex x="0.25" y="-0.85" curve="-90"/>
 <vertex x="0.37" y="-0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="0.87" y="-1.25"/>
 <vertex x="0.63" y="-1.25"/>
 <vertex x="0.63" y="-0.97" curve="-90"/>
 <vertex x="0.75" y="-0.85" curve="-90"/>
 <vertex x="0.87" y="-0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="1.37" y="-1.25"/>
 <vertex x="1.13" y="-1.25"/>
 <vertex x="1.13" y="-0.97" curve="-90"/>
 <vertex x="1.25" y="-0.85" curve="-90"/>
 <vertex x="1.37" y="-0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="-0.63" y="-1.25"/>
 <vertex x="-0.87" y="-1.25"/>
 <vertex x="-0.87" y="-0.97" curve="-90"/>
 <vertex x="-0.75" y="-0.85" curve="-90"/>
 <vertex x="-0.63" y="-0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="-1.13" y="-1.25"/>
 <vertex x="-1.37" y="-1.25"/>
 <vertex x="-1.37" y="-0.97" curve="-90"/>
 <vertex x="-1.25" y="-0.85" curve="-90"/>
 <vertex x="-1.13" y="-0.97"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="-1.75" y="0.13"/>
 <vertex x="-1.75" y="0.37"/>
 <vertex x="-1.47" y="0.37" curve="-90"/>
 <vertex x="-1.35" y="0.25" curve="-90"/>
 <vertex x="-1.47" y="0.13"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="-1.75" y="-0.37"/>
 <vertex x="-1.75" y="-0.13"/>
 <vertex x="-1.47" y="-0.13" curve="-90"/>
 <vertex x="-1.35" y="-0.25" curve="-90"/>
 <vertex x="-1.47" y="-0.37"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="1.75" y="-0.13"/>
 <vertex x="1.75" y="-0.37"/>
 <vertex x="1.47" y="-0.37" curve="-90"/>
 <vertex x="1.35" y="-0.25" curve="-90"/>
 <vertex x="1.47" y="-0.13"/>
 </polygon>
-<polygon width="0" layer="51">
+<polygon width="0.002540625" layer="51">
 <vertex x="1.75" y="0.37"/>
 <vertex x="1.75" y="0.13"/>
 <vertex x="1.47" y="0.13" curve="-90"/>
