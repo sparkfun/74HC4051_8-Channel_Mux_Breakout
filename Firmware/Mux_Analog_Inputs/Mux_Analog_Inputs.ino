@@ -57,7 +57,7 @@ void loop()
   for (byte pin=0; pin<=7; pin++)
   {
     selectMuxPin(pin); // Select one at a time
-    int inputValue = analogRead(A0); // and read Z
+    int inputValue = analogRead(zInput); // and read Z
     Serial.print(String(inputValue) + "\t");
   }
   Serial.println();
